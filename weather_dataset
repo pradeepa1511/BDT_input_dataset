@@ -109,7 +109,5 @@ public class weather {
         System.exit(job.waitForCompletion(true) ? 0 : 1);
 
 
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } }
+        }
 }
