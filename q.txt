@@ -1,4 +1,25 @@
 
+docker pull webgoat/goatandwolf
+
+docker run -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 -e TZ=Europe/Amsterdam webgoat/goatandwolf
+
+http://127.0.0.1:8080/WebGoat
+
+http://127.0.0.1:9090/WebWolf
+
+
+
+https://github.com/WebGoat/WebGoat/wiki/(Almost)-Fully-Documented-Solution-(en)
+
+
+
+
+
+
+
+
+
+SQL(INTRO)
 1.SELECT department FROM employees WHERE first_name='Bob'
 2.UPDATE employees SET department='Sales' WHERE first_name='Tobi'
 3.ALTER TABLE employees ADD phone varchar(20)
